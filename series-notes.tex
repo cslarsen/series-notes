@@ -8,8 +8,9 @@
 \begin{document}
   \maketitle
   \section*{Geometric series}
-  A geometric series is $\sum_{n=0}^{\infty} a_n$ where each term is a multiple
-  $r$ of the previous, i.e.~$a_{n+1} = ra_n$ for all $n \geq 0$.
+  $\sum_{n=0}^{\infty} a_n$ where $|a_{n+1} = ra_n$ for all $n \geq 0$ is
+  called a \textit{geometric series}, i.e.~each term is a multiple $r$ of the
+  previous.
 
   \paragraph{Theorem} If $|r| < 1$, then the series converges with the sum
   $\frac{a_0}{1-r}$. If $|r| \geq 1$, it diverges.
@@ -49,21 +50,14 @@
 
   \section*{The ratio test}
   \paragraph{Theorem} If $\rho = \lim_{n\to\infty}|\frac{a_{n+1}}{a_n}|$ exists
-  or is infinite, then $\sum a_n$ of nonzero terms 
-  \begin{enumerate}
-    \item Converges absolutely if $\rho < 1$
-    \item Diverges if $\rho > 1$
-    \item If $\rho = 1$, the test is inconclusive.
-  \end{enumerate}
+  or is infinite, then the $\sum a_n$ of non-zero terms \textit{converges
+  absolutely} if $\rho < 1$, diverges if $\rho > 1$ and is inconclusive if
+  $\rho = 1$.
 
   \section*{The root test}
   If $\rho = \lim_{n\to\infty}{\sqrt[n]{|a_n|}}$ exists or is infinite, then the
-  infinite seris $\sum a_n$
-  \begin{enumerate}
-    \item Converges absolutely if $\rho < 1$
-    \item Diverges if $\rho > 1$
-    \item Is inconclusive if $\rho = 1$.
-  \end{enumerate}
+  infinite series $\sum a_n$ \textit{converges absolutely} if $\rho < 1$,
+  diverges if $\rho > 1$. The test is inconclusive for $\rho = 1$.
 
   \section*{Power series}
   \paragraph{Theorem} If $\sum a_n x^n$ is a power series, then either
