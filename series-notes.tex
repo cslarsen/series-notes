@@ -7,7 +7,7 @@
 
 \begin{document}
   \maketitle
-  \section{Geometric series}
+  \section*{Geometric series}
   A geometric series is $\sum_{n=0}^{\infty} a_n$ where each term is a multiple
   $r$ of the previous, i.e.~$a_{n+1} = ra_n$ for all $n \geq 0$.
 
@@ -19,11 +19,12 @@
 
   \paragraph{Theorem} The harmonic series $\sum \frac{1}{n}$ diverges.
 
-  \section{Integral test}
+  \section*{The integral test}
+
   \paragraph{Theorem} If $f(n) = a_n$ for all $n$, then $\sum a_n$ and $\int
   f(x) dx$ either both converge or diverge.
 
-  \section{Comparison test}
+  \section*{The comparison test}
   Suppose $\sum a_n$ and $\sum b_n$ are positive-term series. Then
   \begin{enumerate}
     \item $\sum a_n$ converges if $\sum b_n$ converges \textit{and} $a_n \leq
@@ -32,12 +33,12 @@
       b_n$ for all $n$.
   \end{enumerate}
 
-  \section{Limit comparison test}
+  \section*{The limit comparison test}
   Suppose $\sum a_n$ and $\sum b_n$ are positive-term series. If $L =
   \lim_{n\to\infty}{\frac{a_n}{b_n}}$ exists and $0<L<+\infty$, then either
   \textit{both converge} or \textit{both diverge}.
 
-  \section{Alternating series}
+  \section*{Alternating series}
   \paragraph{Theorem}
   If $a_n > a_{n+1} > 0$ for all $n$ and $\lim_{n\to\infty}{a_n} = 0$, then the
   alternating series $\sum_{n=1}^{\infty} (-1)^{n+1} a_n$ converges.
@@ -46,9 +47,9 @@
   If the series $\sum|a_n|$ converges (\textit{absolute convergence}), then so
   does the series $\sum a_n$.
 
-  \paragraph{Theorem: The ratio test}
-  If $\rho = \lim_{n\to\infty}|\frac{a_{n+1}}{a_n}|$ exists or is infinite,
-  then $\sum a_n$ of nonzero terms converge absolutely if $\rho < 1$ and
-  diverges if $p > 1$. If $\rho = 1$, the test is inconclusive.
+  \section*{The ratio test}
+  \paragraph{Theorem} If $\rho = \lim_{n\to\infty}|\frac{a_{n+1}}{a_n}|$ exists
+  or is infinite, then $\sum a_n$ of nonzero terms converge absolutely if $\rho
+  < 1$ and diverges if $p > 1$. If $\rho = 1$, the test is inconclusive.
 
 \end{document}
