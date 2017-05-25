@@ -1,3 +1,6 @@
 *.aux
 *.log
 *.out
+GPATH
+GRTAGS
+GTAGS

@@ -3,8 +3,8 @@ TARGETS := series-notes.pdf
 
 # Change these for your needs
 ifeq ($(shell uname), Linux)
-	PDFLATEX := /usr/texlive/2013/bin/x86_64-linux/pdflatex
-	BIBTEX := /usr/texlive/2013/bin/x86_64-linux/bibtex
+	PDFLATEX := pdflatex
+	BIBTEX := bibtex
 	OPEN := xdg-open
 else
 	PDFLATEX := pdflatex
