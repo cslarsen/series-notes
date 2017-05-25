@@ -1,0 +1,20 @@
+\documentclass[a4paper,twocolumn,10pt]{article}
+\input{preamble}
+
+\title{Selected Notes on Infinite Series}
+\author{Christian Stigen Larsen}
+\date{May 2017}
+
+\begin{document}
+  \maketitle
+  \section{Geometric series}
+  A geometric series is $\sum_{n=0}^{\infty} a_n$ where each term is a multiple
+  $r$ of the previous, i.e.~$a_{n+1} = ra_n$ for all $n \geq 0$.
+
+  \paragraph{Theorem} If $|r| < 1$, then the series converges with the sum
+  $\frac{a_0}{1-r}$. If $|r| \geq 1$, it diverges.
+
+  \paragraph{Theorem} If $\lim_{n \to \infty} a_n \neq 0$ or the limit does not
+  exist, then $\sum a_n$ diverges.
+
+\end{document}
